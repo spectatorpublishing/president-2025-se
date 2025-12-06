@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'EB Garamond';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  @media screen and (max-width: 500px) {
+    body {
+      background-image: none;
+    }
+  
+    .A {
+      height: 110vw;
+    }
+  }
+  
+  
+  #slidebar {
+    display: none;
+  }
+  
+  /* Position and sizing of burger button */
+  .bm-burger-button {
+    display: none;
+  }
+  
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 12px;
+    width: 12px;
+    display: none;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: black;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100% !important;
+    left: 0;
+    z-index: 1 !important;
+    top: 7.5vh !important;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #424242;
+    font-family:'EB Garamond';
+    font-size: 1.65em;
+    height: 100% !important;
+    top: 9vh;
+  }
+
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    height:auto !important;
+    margin-top:3rem;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+    color: white;
+    text-decoration:none;
+    font-weight:700;
+    font-style:normal;
+  }
+  /* Styling of overlay */
+  .bm-overlay {
+    background: none !important;
+  }
+  
+  .over {
+    z-index: 100;
+    position:fixed;
+    left:85.5%;
+    margin:0;
+  }
