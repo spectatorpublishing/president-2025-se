@@ -27,7 +27,7 @@ const ArticleText = styled.div`
   width: 100%;
   height: 180.91px;
   left: 49.09px;
-  top: 380.91px;
+  top: 400px;
 
   font-family: "Source Serif Pro", serif;
   font-style: normal;

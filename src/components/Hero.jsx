@@ -46,7 +46,7 @@ const TextContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 2rem;
+    padding-top: 7rem;
 
     @media (max-width: ${size.tablet}) {
         padding-top: 0;
