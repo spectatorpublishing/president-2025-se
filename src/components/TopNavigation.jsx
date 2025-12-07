@@ -57,15 +57,29 @@ const SubTitle = styled.h2`
     }
 `;
 
+const NavBar = styled.div`
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: #002B5C;
+`;
+
 const LinksContainer = styled.div`
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    width: 100%;
+    gap: 4rem;
+    width: 90%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    
+    @media (max-width: ${size.tablet}) {
+        gap: 2rem;
+    }
     
     @media (max-width: ${size.mobile}) {
         gap: 1rem;
-        flex-wrap: wrap;
     }
 `;
 
