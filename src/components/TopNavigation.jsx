@@ -5,33 +5,55 @@ import { size } from '../device';
 
 const NavContainer = styled.div`
     width: 100%;
-    background-color: #002B5C;
+    background-color: #002761; /* Dark Blue */
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2rem;
+    padding: 1.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 `;
 
-const LogoImg = styled.img`
-    height: 3rem;
+const TopBar = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 1200px;
     margin-bottom: 1.5rem;
+    text-align: center;
+`;
+
+const LogoContainer = styled.div`
+    margin-bottom: 1rem;
+`;
+
+const LogoImage = styled.img`
+    height: 30px;
+    width: auto;
     
     @media (max-width: ${size.mobile}) {
-        height: 2rem;
+        height: 10px;
     }
 `;
 
-const Title = styled.h1`
-    font-family: 'Georgia', serif;
-    font-size: 2.5rem;
+const SubTitle = styled.h2`
+    font-family: "Source Serif Pro", serif;
+    font-size: 1.75rem;
     font-weight: 400;
-    margin: 0 0 2rem 0;
-    text-align: center;
+    margin: 0;
+    color: white;
     
     @media (max-width: ${size.tablet}) {
-        font-size: 1.8rem;
-        padding: 0 1rem;
+        font-size: 1.5rem;
+    }
+    
+    @media (max-width: ${size.mobile}) {
+        font-size: 1.2rem;
     }
 `;
 
@@ -64,9 +86,10 @@ const LinksContainer = styled.div`
 const NavLink = styled.a`
     color: white;
     text-decoration: none;
-    font-family: 'Georgia', serif;
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-family: "Source Serif Pro", serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-transform: uppercase;
     
     &:hover {
         text-decoration: underline;
@@ -76,19 +99,19 @@ const NavLink = styled.a`
 const TopNavigation = () => {
     return (
         <NavContainer>
-            <a href="https://www.columbiaspectator.com">
-                <LogoImg src={process.env.PUBLIC_URL + "/spectator-logo.png"} alt="Columbia Spectator" />
-            </a>
-            <Title>Special Coverage | Columbia's 21st President</Title>
-            <NavBar>
-                <LinksContainer>
-                    {sections.map((section, index) => (
-                        <NavLink key={index} href={section.url}>
-                            {section.title}
-                        </NavLink>
-                    ))}
-                </LinksContainer>
-            </NavBar>
+            <TopBar>
+                <LogoContainer>
+                    <LogoImage src="/ColumbiaDailySpectatorMasthead.png" alt="Columbia Spectator" />
+                </LogoContainer>
+                <SubTitle>Special Coverage | Columbia's 21st President</SubTitle>
+            </TopBar>
+            <LinksContainer>
+                {sections.map((section, index) => (
+                    <NavLink key={index} href={section.url}>
+                        {section.title}
+                    </NavLink>
+                ))}
+            </LinksContainer>
         </NavContainer>
     );
 };

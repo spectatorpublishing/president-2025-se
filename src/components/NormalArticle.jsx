@@ -1,20 +1,33 @@
 import React from "react";
 import styled from "styled-components";
-import { size } from "../device";
 
 const CardContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 100%;
-  background-color: transparent;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+`;
+
+const Link = styled.a`
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
 `;
 
 const ImageContainer = styled.div`
   width: 100%;
   aspect-ratio: 3/2;
-  background-color: #ccc; /* Placeholder gray */
+  background-color: #c4c4c4;
   overflow: hidden;
-  margin-bottom: 1rem;
 `;
 
 const ArticleImage = styled.img`
@@ -23,7 +36,7 @@ const ArticleImage = styled.img`
   object-fit: cover;
   transition: transform 0.3s ease;
 
-  &:hover {
+  ${CardContainer}:hover & {
     transform: scale(1.05);
   }
 `;
@@ -31,32 +44,26 @@ const ArticleImage = styled.img`
 const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
+  padding: 1.5rem;
 `;
 
 const Title = styled.h3`
-  font-family: 'Georgia', serif;
-  font-size: 1.1rem;
-  font-weight: 700;
-  margin: 0 0 0.5rem 0;
-  color: ${props => props.textColor || '#424242'};
+  font-family: 'Source Serif Pro', serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem 0;
+  color: #1a1a1a;
   line-height: 1.4;
 `;
 
 const Byline = styled.p`
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.8rem;
-  text-transform: uppercase;
+  font-family: "Source Serif Pro", serif;
+  font-size: 0.875rem;
   margin: 0;
-  color: ${props => props.textColor ? props.textColor : '#666'};
-  opacity: 0.8;
+  color: #666;
 `;
 
-const Link = styled.a`
-  text-decoration: none;
-  color: inherit;
-`;
-
-const NormalArticle = ({ article, textColor }) => {
+const NormalArticle = ({ article }) => {
   return (
     <CardContainer>
       <Link href={article.link} target="_blank" rel="noreferrer">
@@ -64,12 +71,12 @@ const NormalArticle = ({ article, textColor }) => {
           {article.img && <ArticleImage src={article.img} alt={article.title} />}
         </ImageContainer>
         <TextContainer>
-          <Title textColor={textColor}>{article.title}</Title>
-          <Byline textColor={textColor}>By {article.author}</Byline>
+          <Title>{article.title}</Title>
+          <Byline>By {article.author}</Byline>
         </TextContainer>
       </Link>
     </CardContainer>
   );
 };
 
-export default NormalArticle;
+export default NormalArticle; 

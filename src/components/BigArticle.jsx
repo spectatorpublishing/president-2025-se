@@ -29,7 +29,7 @@ const ArticleText = styled.div`
   left: 49.09px;
   top: 380.91px;
 
-  font-family: "Montserrat";
+  font-family: "Source Serif Pro", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2rem;
@@ -46,7 +46,7 @@ const Title = styled.p`
   left: 49.09px;
   top: 300.91px;
   margin-${(prop) => prop.type}: 2%;
-  font-family: "Montserrat";
+  font-family: "Source Serif Pro", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2.5rem;

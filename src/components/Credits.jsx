@@ -5,7 +5,7 @@ import { size } from '../device';
 
 const Container = styled.div`
     width: 100%;
-    background-color: #002B5C;
+    background-color: #0045AC;
     color: white;
     padding: 4rem 0;
     display: flex;
@@ -15,9 +15,10 @@ const Container = styled.div`
 
 const Header = styled.h1`
     text-align: center;
-    width: 80%;
+    width: 45%;
     font-size: 2rem;
-    font-family: 'Georgia', serif;
+    font-family: "Source Serif Pro", serif;
+    font-weight: 400;
     margin-bottom: 3rem;
     text-transform: uppercase;
     
@@ -27,39 +28,41 @@ const Header = styled.h1`
 `;
 
 const CreditsGrid = styled.div`
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    column-count: 2;
+    column-gap: 0.5rem;
     width: 90%;
     max-width: 1200px;
 
     @media (max-width: ${size.tablet}) {
-        grid-template-columns: repeat(2, 1fr);
+        column-count: 2;
+        column-gap: 1.5rem;
     }
 
     @media (max-width: ${size.mobile}) {
-        grid-template-columns: 1fr;
+        column-count: 1;
         text-align: center;
     }
 `;
 
 const Section = styled.div`
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 `;
 
 const SectionTitle = styled.h2`
-    font-family: 'Georgia', serif;
-    font-size: 1.2rem;
+    font-family: "Source Serif Pro", serif;
+    font-size: 1.6rem;
     font-weight: 700;
     margin-bottom: 1rem;
     color: white;
+    text-align: center;
 `;
 
 const Name = styled.div`
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.9rem;
+    font-family: "Source Serif Pro", serif;
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
     color: #ddd;
+    text-align: center;
 `;
 
 const Credits = () => {
