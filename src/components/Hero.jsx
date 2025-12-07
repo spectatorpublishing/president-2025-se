@@ -33,9 +33,9 @@ const HeroImage = styled.img`
 `;
 
 const ImageCaption = styled.p`
-    font-family: 'Georgia', serif;
+    font-family: "Source Serif Pro", serif;
     font-style: italic;
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-top: 0.5rem;
     color: #ddd;
 `;
@@ -55,7 +55,7 @@ const TextContainer = styled.div`
 `;
 
 const Title = styled.h1`
-    font-family: 'Georgia', serif;
+    font-family: "Source Serif Pro", serif;
     font-size: 2.5rem;
     margin-bottom: 1rem;
     line-height: 1.2;
@@ -70,7 +70,7 @@ const Title = styled.h1`
 `;
 
 const Byline = styled.p`
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Source Serif Pro", sans-serif;
     font-size: 1rem;
     text-transform: uppercase;
     margin-top: 1rem;

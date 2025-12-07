@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { size } from "../device";
 
 const Title = styled.p`
-  font-family: 'EB Garamond', serif;
+  font-family: "Source Serif Pro", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2.8rem;
