@@ -27,7 +27,6 @@ const Header = styled.h1`
     }
 `;
 
-
 const CreditsGrid = styled.div`
     column-count: 2;
     column-gap: 0.5rem;
