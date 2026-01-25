@@ -46,7 +46,7 @@ const TextContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 7rem;
+    padding-top: 1rem;
 
     @media (max-width: ${size.tablet}) {
         padding-top: 0;
@@ -88,7 +88,7 @@ const Hero = ({ article }) => {
                 </a>
                 <ImageCaption>
                     {/* Placeholder caption since data might not have it, or use title as caption fallback */}
-                    Nemat "Minouche" Shafik will serve as Columbia's 20th President, the University announced Wednesday morning, marking the first time in the institution's 269-year history that a woman or a person of color will hold the top post.
+                    Columbia has selected Jennifer Mnookin, chancellor of the University of Wisconsin-Madison, as its 21st University president, according to Sunday reports from The New York Times, The Wall Street Journal, and Bloomberg. Mnookin is Columbia’s fifth president in four years. Her selection as the University’s 21st president will end a period of leadership instability at Columbia.
                 </ImageCaption>
             </ImageContainer>
             <TextContainer>

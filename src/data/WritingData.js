@@ -2,10 +2,10 @@ const WritingData = {
   university: [
     {
       title:
-        "Meet Shafik, Columbia’s next University president",
-      link: "https://www.columbiaspectator.com/news/2023/01/18/meet-shafik-columbias-next-university-president/",
-      author: "Esha Karam, Rebecca Massel, and Sabrina Ticer-Wurr",
-      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/BLD7VRT4JZHXLCQ2ZKEVEEUURQ.jpeg",
+        "Columbia selects University of Wisconsin-Madison chancellor Jennifer Mnookin as next University president, according to reports",
+      link: "https://www.columbiaspectator.com/news/2026/01/25/columbia-selects-university-of-wisconsin-madison-chancellor-jennifer-mnookin-as-next-university-president-according-to-reports/",
+      author: "Emily Pickering and Spencer Davis",
+      img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DZJBOWTLQFGH5GLSNPLNLO6LBM.jpg",
       type:"normal"
     },
     {

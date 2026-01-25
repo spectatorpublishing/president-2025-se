@@ -1,35 +1,39 @@
 export const credits = {
   "Corporate Board": [
-          { staff_name: "Irie Sentner", title: "Editor in Chief" },
-          { staff_name: "Andrew Park", title: "Managing Editor" },
-          { staff_name: "Tyler Shern", title: "Publisher" }
+          { staff_name: "Tsehai Alfred", title: "Editor in Chief" },
+          { staff_name: "Manuela Moreyra", title: "Managing Editor" },
+          { staff_name: "Melinda Yao", title: "Publisher" }
   ],
   "Engineering": [
      
       {
-        "staff_name": "Marian Abuhazi",
-        "title": "Head of Engineering"
+        "staff_name": "Julien Remy",
+        "title": "Co-Head of Engineering"
       },
       {
-        "staff_name": "Laura Castro Venegas",
+        "staff_name": "Shriya Mani",
+        "title": "Co-Head of Engineering"
+      },
+      {
+        "staff_name": "Noel Negron",
         "title": "Engineering Manager"
       }
     ],
   "Product":[
     {
-      "staff_name": "Muchen Guo",
+      "staff_name": "Eugene Kim",
       "title": "Head of Product"
     },
     
   ],
   "University News": [
       {
-        "staff_name": "Esha Karam",
-        "title": "University News Editor"
+        "staff_name": "Emily Pickering",
+        "title": "University News Co-Editor"
       },
 {
-        "staff_name": "Isabella Ramírez",
-        "title": "University News Editor"
+        "staff_name": "Spencer Davis",
+        "title": "University News Co-Editor"
       },
       {
         "staff_name": "Zachary Schermele",
@@ -74,7 +78,7 @@ export const credits = {
     ],
   "City News": [
       {
-        "staff_name": "Esther Sun",
+        "staff_name": "Surina Venkat",
         "title": "City News Editor"
       },
       {
@@ -104,7 +108,7 @@ export const credits = {
     ],
   "Opinion": [
       {
-        "staff_name": "Milène Klein",
+        "staff_name": "Camille Duran",
         "title": "Editorial Page Editor"
       },
       {
@@ -135,7 +139,7 @@ export const credits = {
  
   "Photo": [
       {
-        "staff_name": "Judy Goldstein",
+        "staff_name": "Audrea Chen",
         "title": "Photo Editor"
       },
       {
@@ -149,7 +153,7 @@ export const credits = {
     ],
   "Copy": [
       {
-        "staff_name": "Ronit Dhulia",
+        "staff_name": "Emily Spencer",
         "title": "Head Copy Editor"
       },
       {
@@ -212,7 +216,7 @@ export const credits = {
     ],
   "Engagement": [
       {
-        "staff_name": "Samantha Turk",
+        "staff_name": "Arielle Rieder",
         "title": "Engagement Director"
       },
       {
