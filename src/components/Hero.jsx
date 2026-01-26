@@ -88,7 +88,7 @@ const Hero = ({ article }) => {
                 </a>
                 <ImageCaption>
                     {/* Placeholder caption since data might not have it, or use title as caption fallback */}
-                    Columbia has selected Jennifer Mnookin, chancellor of the University of Wisconsin-Madison, as its 21st University president, according to Sunday reports from The New York Times, The Wall Street Journal, and Bloomberg. Mnookin is Columbia’s fifth president in four years. Her selection as the University’s 21st president will end a period of leadership instability at Columbia.
+                    Mnookin is Columbia’s fifth president in four years.
                 </ImageCaption>
             </ImageContainer>
             <TextContainer>
