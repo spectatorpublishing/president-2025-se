@@ -103,7 +103,7 @@ const TopNavigation = () => {
                 <LogoContainer>
                     <LogoImage src="/ColumbiaDailySpectatorMasthead.png" alt="Columbia Spectator" />
                 </LogoContainer>
-                <SubTitle>Special Coverage | Columbia's 21st President</SubTitle>
+                <SubTitle>Special Coverage | Five Presidents, Four Years</SubTitle>
             </TopBar>
             <LinksContainer>
                 {sections.map((section, index) => (

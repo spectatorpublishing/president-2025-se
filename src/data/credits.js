@@ -31,54 +31,74 @@ export const credits = {
     
   ],
   "University News": [
-      {
-        "staff_name": "Emily Pickering",
-        "title": "University News Co-Editor"
-      },
-{
-        "staff_name": "Spencer Davis",
-        "title": "University News Co-Editor"
-      },
-      {
-        "staff_name": "Zachary Schermele",
-        "title": "Senior Staff Writer"
-      },
-      {
-        "staff_name": "Sara Kirkham",
-        "title": "Senior Staff Writer"
-      },
-      {
-        "staff_name": "Eliana Goldin",
-        "title": "Senior Staff Writer"
-      },
-      {
-        "staff_name": "Sabrina Ticer-Wurr",
-        "title": "Staff Writer"
-      },
-      {
-        "staff_name": "Rebecca Massel",
-        "title": "Staff Writer"
-      },
-      {
-        "staff_name": "Ariel Yu",
-        "title": "Staff Writer"
-      },
-      {
-        "staff_name": "Shea Vance",
-        "title": "Staff Writer"
-      },
-      {
-        "staff_name": "John Towfighi",
-        "title": "Staff Writer"
-      },
-      {
-        "staff_name": "Ayaan Ali",
-        "title": "Staff Writer"
-      },
-      {
-        "staff_name": "Apurva Chakravarthy",
-        "title": "Staff Writer"
-      },
+    {
+      "staff_name": "Spencer Davis",
+      "title": "University News Editor"
+    },
+    {
+      "staff_name": "Emily Pickering",
+      "title": "University News Editor"
+    },
+    {
+      "staff_name": "Pedro Meerbaum",
+      "title": "Staff Writer"
+    },
+    {
+      "staff_name": "Celine Chien",
+      "title": "Staff Writer"
+    },
+    {
+      "staff_name": "Joseph Zuloaga",
+      "title": "Deputy News Editor"
+    },
+    {
+      "staff_name": "Colette Carbonara",
+      "title": "Deputy News Editor"
+    },
+    {
+      "staff_name": "Theresa Cullen",
+      "title": "Staff Writer"
+    },
+    {
+      "staff_name": "Ashley Flores",
+      "title": "Staff Writer"
+    },
+    {
+      "staff_name": "Sarah Huddleston",
+      "title": "Former University News Editor"
+    },
+    {
+      "staff_name": "Shea Vance",
+      "title": "Former University News Editor"
+    },
+    {
+      "staff_name": "Emily Forgash",
+      "title": "Former Deputy News Editor"
+    },
+    {
+      "staff_name": "Esha Karam",
+      "title": "Former Managing Editor"
+    },
+    {
+      "staff_name": "Isha Banerjee",
+      "title": "Former University News Editor"
+    },
+    {
+      "staff_name": "Nadia Knoblauch",
+      "title": "Deputy News Editor"
+    },
+    {
+      "staff_name": "Molly Bordoff",
+      "title": "Deputy News Editor"
+    },
+    {
+      "staff_name": "Aleka Gomez-Sotomayor-Roel",
+      "title": "Former Staff Writer"
+    },
+    {
+      "staff_name": "Matt Luo",
+      "title": "Staff Writer"
+    }
     ],
   // "City News": [
   //     {
@@ -180,6 +200,74 @@ export const credits = {
         "staff_name": "Gigi Chen",
         "title": "Deputy Copy Editor"
       },
+      {
+        "staff_name": "Eric Aguilar",
+        "title": "Senior Associate Copy Editor"
+      },
+      {
+        "staff_name": "Dalina Cao",
+        "title": "Senior Associate Copy Editor"
+      },
+      {
+        "staff_name": "Yoona Lee",
+        "title": "Senior Associate Copy Editor"
+      },
+      {
+        "staff_name": "Ames Yu",
+        "title": "Senior Associate Copy Editor"
+      },
+      {
+        "staff_name": "Sebastian Cunto-Araujo",
+        "title": "Senior Associate Copy Editor"
+      },
+      {
+        "staff_name": "Jordan Straub",
+        "title": "Senior Associate Copy Editor"
+      },
+      {
+        "staff_name": "Maxwell Gaynor",
+        "title": "Associate Copy Editor"
+      },
+      {
+        "staff_name": "Sreya Gupta",
+        "title": "Associate Copy Editor"
+      },
+      {
+        "staff_name": "Grace Mazer",
+        "title": "Associate Copy Editor"
+      },
+      {
+        "staff_name": "Kathleen Yang",
+        "title": "Associate Copy Editor"
+      },
+      {
+        "staff_name": "Finn Brown",
+        "title": "Associate Copy Editor"
+      },
+      {
+        "staff_name": "June Liu",
+        "title": "Associate Copy Editor"
+      },
+      {
+        "staff_name": "Skerry Lu",
+        "title": "Associate Copy Editor"
+      },
+      {
+        "staff_name": "Serena Miles",
+        "title": "Associate Copy Editor"
+      },
+      {
+        "staff_name": "Claire Murray",
+        "title": "Associate Copy Editor"
+      },
+      {
+        "staff_name": "Kelly Sung",
+        "title": "Associate Copy Editor"
+      },
+      {
+        "staff_name": "Lynn Tang",
+        "title": "Associate Copy Editor"
+      }
     ],
   // "Engagement": [
   //     {

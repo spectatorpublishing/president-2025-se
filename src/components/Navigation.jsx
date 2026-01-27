@@ -74,7 +74,7 @@ const Navigation = () => {
           width:"14rem",
         }} src="https://spec-imagehosting.s3.amazonaws.com/CDSwhitemasthead.png"></LogoImage></a>
       </Logo>
-      <Title>Special Coverage | Columbia's 20th President</Title>
+      <Title>Special Coverage | Five Presidents, Four Years</Title>
       <NavBody>
         {sections.map((section, index) => (
              <HashLink smooth to={section.url} exact={section.exact} style={{textDecoration:'none'}}>
