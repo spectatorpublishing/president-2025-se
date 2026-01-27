@@ -38,7 +38,7 @@ const LogoImage = styled.img`
     width: auto;
     
     @media (max-width: ${size.mobile}) {
-        height: 10px;
+        height: 30px;
     }
 `;
 
@@ -102,7 +102,7 @@ const TopNavigation = () => {
         <NavContainer>
             <TopBar>
                 <LogoContainer>
-                    <LogoImage src="/ColumbiaDailySpectatorMasthead.png" alt="Columbia Spectator" />
+                    <LogoImage src="/ColumbiaDailySpectatorMastheadNEW.png" alt="Columbia Spectator" />
                 </LogoContainer>
                 <SubTitle>Special Coverage | Five Presidents, Four Years</SubTitle>
             </TopBar>

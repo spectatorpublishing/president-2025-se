@@ -24,6 +24,7 @@ const Header = styled.h1`
     
     @media (max-width: ${size.tablet}) {
         font-size: 1.5rem;
+        width: 75%;
     }
 `;
 

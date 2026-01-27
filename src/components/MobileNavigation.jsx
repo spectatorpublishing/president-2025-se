@@ -45,7 +45,7 @@ const Logo = styled.div`
 `;
 
 const LogoImage = styled.img`
-    width:25%;
+    width:55%;
     padding-bottom:1rem;
 `
 const Title = styled.h1`

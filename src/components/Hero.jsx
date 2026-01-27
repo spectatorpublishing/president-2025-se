@@ -60,6 +60,10 @@ const Title = styled.h1`
     margin-bottom: 1rem;
     line-height: 1.2;
 
+    @media (max-width: ${size.tablet}) {
+        font-size: 1.8rem;
+    }
+
     a {
         color: white;
         text-decoration: none;
