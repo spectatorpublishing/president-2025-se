@@ -51,9 +51,9 @@ const Grid = styled.div`
   }
 `;
 
-const WritingSection = ({ title, articles, backgroundColor, textColor }) => {
+const WritingSection = ({ id, title, articles, backgroundColor, textColor }) => {
   return (
-    <SectionContainer backgroundColor={backgroundColor} textColor={textColor} id={title.toLowerCase()}>
+    <SectionContainer backgroundColor={backgroundColor} textColor={textColor} id={id || title.toLowerCase()}>
       <ContentWrapper>
         <Title textColor={textColor}>{title}</Title>
         <Grid>

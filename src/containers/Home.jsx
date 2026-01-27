@@ -25,9 +25,18 @@ const Home = () => {
             const backgroundColor = isDark ? '#002B5C' : 'white';
             const textColor = isDark ? 'white' : '#424242';
 
+            // Determine ID for scrolling
+            let id = key.toLowerCase();
+            if (key === "The University's next permanent president") {
+                id = "jennifer-mnookin";
+            } else if (key === "The Presidential Turnover") {
+                id = "leadership-turnover";
+            }
+
             return (
                 <WritingSection
                     key={key}
+                    id={id}
                     title={key}
                     articles={articles}
                     backgroundColor={backgroundColor}

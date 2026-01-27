@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { sections } from '../data/sections';
 import { size } from '../device';
+import { HashLink } from 'react-router-hash-link';
 
 const NavContainer = styled.div`
     width: 100%;
@@ -83,7 +84,7 @@ const LinksContainer = styled.div`
     }
 `;
 
-const NavLink = styled.a`
+const NavLink = styled(HashLink)`
     color: white;
     text-decoration: none;
     font-family: "Source Serif Pro", serif;
@@ -107,7 +108,7 @@ const TopNavigation = () => {
             </TopBar>
             <LinksContainer>
                 {sections.map((section, index) => (
-                    <NavLink key={index} href={section.url}>
+                    <NavLink key={index} smooth to={section.url}>
                         {section.title}
                     </NavLink>
                 ))}
