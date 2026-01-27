@@ -65,6 +65,10 @@ const Name = styled.div`
     text-align: center;
 `;
 
+const Spacer = styled.div`
+    height: 2rem;
+`;
+
 const Credits = () => {
     return (
         <Container id="credits">
@@ -76,6 +80,9 @@ const Credits = () => {
                         {people.map((person, index) => (
                             <Name key={index}>{person.staff_name}, {person.title}</Name>
                         ))}
+                        {section === "Engineering" && (
+                            <><Spacer /></>
+                        )}
                     </Section>
                 ))}
             </CreditsGrid>

@@ -104,7 +104,7 @@ const MobileNavigation = () => {
                 width:"14rem",
             }} src="https://spec-imagehosting.s3.amazonaws.com/CDSwhitemasthead.png"></LogoImage></a>
             </Logo>
-            <Title>Special Coverage | Columbia's 20th President</Title>
+            <Title>Special Coverage | Five Presidents, Four Years</Title>
         </Navigation>
     );
 };

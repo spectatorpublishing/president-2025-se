@@ -4,8 +4,12 @@ export const sections = [
         url: "/#",
     },
     {
-        title: "University",
-        url: "/#university",
+        title: "Jennifer Mnookin",
+        url: "/#jennifer-mnookin",
+    },
+    {
+        title: "Leadership Turnover",
+        url: "/#leadership-turnover",
     },
     {
         title: "Credits",
