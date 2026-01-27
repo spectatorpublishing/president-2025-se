@@ -72,7 +72,19 @@ export const credits = {
     {
       "staff_name": "Matt Luo",
       "title": "Staff Writer"
-    }
+    },
+    {
+      "staff_name": "Irie Sentner",
+      "title": "Former University News Editor"
+    },
+    {
+      "staff_name": "Rebecca Massel",
+      "title": "Former Staff Writer"
+    },
+    {
+      "staff_name": "Sabrina Ticer-Wurr",
+      "title": "Former Staff Writer"
+    },
     ],
     "Engineering": [
      
@@ -181,7 +193,11 @@ export const credits = {
       {
         "staff_name": "Lynn Tang",
         "title": "Associate Copy Editor"
-      }
+      },
+      {
+        "staff_name": "Posey Chiddix",
+        "title": "Former Head Copy Editor"
+      },
     ],
     "Product":[
     {

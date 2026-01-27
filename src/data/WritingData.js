@@ -1,5 +1,5 @@
 const WritingData = {
-  "The University's next permanent president": [
+  "The University’s next permanent president": [
     {
         link: "https://www.columbiaspectator.com/news/2026/01/25/columbia-selects-university-of-wisconsin-madison-chancellor-jennifer-mnookin-as-next-university-president-according-to-reports/",
         title: "Columbia selects University of Wisconsin-Madison Chancellor Jennifer Mnookin as next University president",
@@ -14,7 +14,7 @@ const WritingData = {
     },
     {
         link: "https://www.columbiaspectator.com/news/2026/01/26/a-different-start-students-react-with-hope-concerns-and-curiosity-to-incoming-university-president-jennifer-mnookin/",
-        title: "‘A different start’: Students react with hope, concerns, and curiosity to incoming University President Jennifer Mnookin",
+        title: "‘A different start’: Students react with hope, concern, and curiosity to incoming University President Jennifer Mnookin",
         author: "Ashley Flores and Colette Carbonara",
         img: "https://www.columbiaspectator.com/resizer/v2/DN4DKF5VLJFJNJ2HX4AGQDXZFE.jpg?auth=91cc3dab991499695c027191c6c487fe0752147e3ec3e00742eb0705d0c6a9e5"
     },
