@@ -102,7 +102,7 @@ const TopNavigation = () => {
         <NavContainer>
             <TopBar>
                 <LogoContainer>
-                    <LogoImage src="/ColumbiaDailySpectatorMastheadNEW.png" alt="Columbia Spectator" />
+                    <a href="https://www.columbiaspectator.com/"><LogoImage src="/ColumbiaDailySpectatorMastheadNEW.png" alt="Columbia Spectator" /></a>
                 </LogoContainer>
                 <SubTitle>Special Coverage | Five Presidents, Four Years</SubTitle>
             </TopBar>
