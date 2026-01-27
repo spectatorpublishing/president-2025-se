@@ -269,6 +269,13 @@ export const credits = {
         "title": "Associate Copy Editor"
       }
     ],
+  
+    "Photo": [
+      {
+        "staff_name": "Zohar Ford",
+        "title": "Deputy Photo Editor",
+      }
+    ]
   // "Engagement": [
   //     {
   //       "staff_name": "Arielle Rieder",
