@@ -7,7 +7,7 @@ import Credits from '../components/Credits';
 
 const Home = () => {
   // Assume the first article of the 'university' section is the main story/hero
-  const heroArticle = WritingData["The University's next permanent president"] ? WritingData["The University's next permanent president"][0] : null;
+  const heroArticle = WritingData["The University’s next permanent president"] ? WritingData["The University’s next permanent president"][0] : null;
 
   return (
     <div>
@@ -16,7 +16,7 @@ const Home = () => {
         
         {Object.keys(WritingData).map((key, index) => {
             // If this is the university section, skip the first article as it's in the Hero
-            const articles = (key === "The University's next permanent president" && heroArticle) 
+            const articles = (key === "The University’s next permanent president" && heroArticle) 
                 ? WritingData[key].slice(1) 
                 : WritingData[key];
             
@@ -27,7 +27,7 @@ const Home = () => {
 
             // Determine ID for scrolling
             let id = key.toLowerCase();
-            if (key === "The University's next permanent president") {
+            if (key === "The University’s next permanent president") {
                 id = "jennifer-mnookin";
             } else if (key === "The Presidential Turnover") {
                 id = "leadership-turnover";

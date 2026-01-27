@@ -14,14 +14,6 @@ export const credits = {
       "title": "University News Editor"
     },
     {
-      "staff_name": "Pedro Meerbaum",
-      "title": "Staff Writer"
-    },
-    {
-      "staff_name": "Celine Chien",
-      "title": "Staff Writer"
-    },
-    {
       "staff_name": "Joseph Zuloaga",
       "title": "Deputy News Editor"
     },
@@ -30,11 +22,31 @@ export const credits = {
       "title": "Deputy News Editor"
     },
     {
+      "staff_name": "Nadia Knoblauch",
+      "title": "Deputy News Editor"
+    },
+    {
+      "staff_name": "Molly Bordoff",
+      "title": "Deputy News Editor"
+    },
+    {
+      "staff_name": "Pedro Meerbaum",
+      "title": "Staff Writer"
+    },
+    {
+      "staff_name": "Celine Chien",
+      "title": "Staff Writer"
+    },
+    {
       "staff_name": "Theresa Cullen",
       "title": "Staff Writer"
     },
     {
       "staff_name": "Ashley Flores",
+      "title": "Staff Writer"
+    },
+    {
+      "staff_name": "Matt Luo",
       "title": "Staff Writer"
     },
     {
@@ -46,36 +58,20 @@ export const credits = {
       "title": "Former University News Editor"
     },
     {
-      "staff_name": "Emily Forgash",
-      "title": "Former Deputy News Editor"
+      "staff_name": "Isha Banerjee",
+      "title": "Former University News Editor"
+    },
+    {
+      "staff_name": "Irie Sentner",
+      "title": "Former University News Editor"
     },
     {
       "staff_name": "Esha Karam",
       "title": "Former Managing Editor"
     },
     {
-      "staff_name": "Isha Banerjee",
-      "title": "Former University News Editor"
-    },
-    {
-      "staff_name": "Nadia Knoblauch",
-      "title": "Deputy News Editor"
-    },
-    {
-      "staff_name": "Molly Bordoff",
-      "title": "Deputy News Editor"
-    },
-    {
       "staff_name": "Aleka Gomez-Sotomayor-Roel",
       "title": "Former Staff Writer"
-    },
-    {
-      "staff_name": "Matt Luo",
-      "title": "Staff Writer"
-    },
-    {
-      "staff_name": "Irie Sentner",
-      "title": "Former University News Editor"
     },
     {
       "staff_name": "Rebecca Massel",
@@ -85,8 +81,12 @@ export const credits = {
       "staff_name": "Sabrina Ticer-Wurr",
       "title": "Former Staff Writer"
     },
-    ],
-    "Engineering": [
+    {
+      "staff_name": "Emily Forgash",
+      "title": "Former Deputy News Editor"
+    },
+  ],
+  "Engineering": [
      
       {
         "staff_name": "Julien Remy",
