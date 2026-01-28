@@ -9,7 +9,7 @@ const WritingData = {
     {
         link: "https://www.columbiaspectator.com/news/2026/01/26/what-to-know-about-jennifer-mnookin-columbias-next-president/",
         title: "What to know about Jennifer Mnookin, Columbia’s next president",
-        author: "Pedro Meerbaum, Celine Chien",
+        author: "Pedro Meerbaum and Celine Chien",
         img: "https://www.columbiaspectator.com/resizer/v2/AEFD5AYTBBAO3LLVXLDDGEUGYY.jpg?auth=0eab8ec714480eb32faa5317fc5bb5c4d6388a63c7e19f4fb9f83a12a1e27697"
     },
     {
@@ -23,6 +23,12 @@ const WritingData = {
         title: "Jennifer Mnookin pens first email to Columbia community following selection as next University president",
         author: "Spencer Davis and Theresa Cullen",
         img: "https://www.columbiaspectator.com/resizer/v2/U667ZX75ZFBKHDQNWL7WQEPWIY.jpg?auth=51d686c344171f4ebce04a663000ad8deba52db9c406e69a5a41bf4a2d83e16a"
+    },
+    {
+        link: "https://www.columbiaspectator.com/news/2026/01/28/very-exciting-news-faculty-react-to-mnookins-appointment-with-relief-caution-and-hopes-for-renewed-unity/",
+        title: "‘Very exciting news’: Faculty react to Mnookin’s appointment with relief, caution, and hopes for renewed unity",
+        author: "Matt Luo and Shea Vance",
+        img: "https://www.columbiaspectator.com/resizer/v2/FSQLC7GTDJCM3PL2QJUKPU6TRI.jpg?auth=77d689aa151c95ff0d3ccea8bba8ae097c821d2a2b19ff499e51320c3f73ead7"
     },
     ],
     "The Presidential Turnover": [
