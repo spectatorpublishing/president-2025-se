@@ -182,6 +182,10 @@ const ContentWrapper = styled.div`
         margin-bottom: 2rem;
         text-align: center;
         font-size: 2.5rem;
+
+        @media (max-width: ${size.tablet}) {
+            font-size: 2rem;
+        }
     }
 `;
 
@@ -273,7 +277,7 @@ const Hero = ({ article }) => {
                             <p>
                                 Sincerely,
                             </p>
-                            <p style={{ marginTop: '1rem', fontStyle: 'italic' }}>
+                            <p style={{ marginTop: '1rem', marginBottom: '5rem'}}>
                                 Tsehai Alfred, editor in chief and president<br />
                                 Manuela Moreyra, managing editor and vice president
                             </p>
