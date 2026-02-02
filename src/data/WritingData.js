@@ -30,6 +30,12 @@ const WritingData = {
         author: "Matt Luo and Shea Vance",
         img: "https://www.columbiaspectator.com/resizer/v2/FSQLC7GTDJCM3PL2QJUKPU6TRI.jpg?auth=77d689aa151c95ff0d3ccea8bba8ae097c821d2a2b19ff499e51320c3f73ead7"
     },
+    {
+        link: "https://www.columbiaspectator.com/news/2026/02/01/columbia-alumni-express-hope-for-stability-under-next-permanent-president-jennifer-mnookin/",
+        title: "Columbia alumni express hope for stability under next permanent president Jennifer Mnookin",
+        author: "Ushoshi Das and Shea Vance ",
+        img: "https://www.columbiaspectator.com/resizer/v2/XTBBAMSZ7JBBNJBZJ2ENRXEMVY.jpg?auth=0b2cfd9acceaaa9decf63afc618551c29de2aff84a02db1998abff1d46c535db"
+    },
     ],
     "The Presidential Turnover": [
     {
