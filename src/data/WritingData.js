@@ -36,6 +36,18 @@ const WritingData = {
         author: "Ushoshi Das and Shea Vance ",
         img: "https://www.columbiaspectator.com/resizer/v2/XTBBAMSZ7JBBNJBZJ2ENRXEMVY.jpg?auth=0b2cfd9acceaaa9decf63afc618551c29de2aff84a02db1998abff1d46c535db"
     },
+    {
+        link: "https://www.columbiaspectator.com/news/2026/02/05/mnookins-appointment-ends-a-2-year-period-of-interim-leadership-what-did-her-predecessors-leave-her/",
+        title: "Mnookin’s appointment ends a 2-year period of interim leadership. What did her predecessors leave her?",
+        author: "Joseph Zuloaga and Nadia Knoblauch ",
+        img: "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YGIKQKCC3VETTMDL3CD47LK4MM.png"
+    },
+    {
+        link: "https://www.columbiaspectator.com/news/2026/02/04/columbia-welcomes-mnookin-at-exclusive-event/",
+        title: "Columbia welcomes Mnookin at exclusive event",
+        author: "Spencer Davis and Colette Carbonara",
+        img: "https://www.columbiaspectator.com/resizer/v2/2TQI4NSRFJDRNJSIP6ZQ3MAZHI.jpg?auth=beabe096f59ce4c8fbe341fd918347d302d1a88af25ab0ebfc94f440b5322b01"
+    },
     ],
     "The Presidential Turnover": [
     {
