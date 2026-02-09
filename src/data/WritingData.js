@@ -48,6 +48,12 @@ const WritingData = {
         author: "Spencer Davis and Colette Carbonara",
         img: "https://www.columbiaspectator.com/resizer/v2/2TQI4NSRFJDRNJSIP6ZQ3MAZHI.jpg?auth=beabe096f59ce4c8fbe341fd918347d302d1a88af25ab0ebfc94f440b5322b01"
     },
+    {
+        link: "https://www.columbiaspectator.com/news/2026/02/09/after-years-of-turmoil-columbia-looks-to-stabilize-with-a-new-president/",
+        title: "After years of turmoil, Columbia looks to stabilize with a new president",
+        author: "Shea Vance",
+        img: "https://www.columbiaspectator.com/resizer/v2/XI5IS6DYQVF27PFNDYYROKIU2U.jpg?auth=09963902a54b5416fc0a0a8e32595e4f76721d8a6e91f6b5aa9dd10bb4630fe9"
+    },
     ],
     "The Presidential Turnover": [
     {
